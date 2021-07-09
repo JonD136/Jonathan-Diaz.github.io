@@ -25,7 +25,9 @@ h2.textStyle{
     background-size: cover;
     background-position: center;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
+    background-repeat: repeat;
+    overflow-x: scroll;
 }
 
 
