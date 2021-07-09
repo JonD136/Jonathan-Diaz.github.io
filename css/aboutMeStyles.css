@@ -44,6 +44,11 @@ p.centerText {
 
 /* button */
 .button {
+    /* moving it to center */
+    position: relative;
+    top: 20%;
+    left: 50%;
+    
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -56,10 +61,7 @@ p.centerText {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    /* moving it to center */
-    position: relative;
-    top: 20%;
-    left: 50%;
+    
   }
   
   .button:hover {background-color: #00065d}
