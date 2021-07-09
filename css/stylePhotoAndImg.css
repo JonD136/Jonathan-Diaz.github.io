@@ -1,6 +1,6 @@
 .middleImage{
     position: relative;
-    top: 20%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:200px;
@@ -9,8 +9,8 @@
 .textHeaderMiddle{
     text-align: center;
     color: rgb(28, 131, 74);
-    position: relative;
-    top: 10px;
+    position: fixed;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:200px;
@@ -20,8 +20,8 @@
 .textParagraphMiddle{
     text-align: center;
     color: rgb(28, 131, 74);
-    position: relative;
-    top: 10px;
+    position: fixed;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:200px;

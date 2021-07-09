@@ -1,5 +1,6 @@
 
 p.centerText {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 40em;
@@ -10,6 +11,7 @@ p.centerText {
 }
 
 h2.textStyle{
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     /* width: 50em; */
