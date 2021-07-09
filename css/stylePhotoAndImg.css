@@ -1,7 +1,7 @@
 .middleImage{
     position: fixed;
     top: 25%;
-    left: 30%;
+    left: 20%;
     transform: translate(-50%, -50%);
     width:200px;
 }
