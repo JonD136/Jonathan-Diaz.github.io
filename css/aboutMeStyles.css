@@ -1,3 +1,10 @@
+.middleImage{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:200px;
+}
 
 p.centerText {
     position: relative;
