@@ -46,7 +46,7 @@ h2.textStyle{
     /* moving it to center */
     position: relative;
     top: 40px;
-    left: 50%;
+    left: 40%;
   }
   
   .button:hover {background-color: #00065d}
