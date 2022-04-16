@@ -1,6 +1,7 @@
 .imageOfMe {
     width: 20%;
     float: right;
+    border-radius: 140%;
     margin-right: 10%;
     margin-top: 100px;
 }
