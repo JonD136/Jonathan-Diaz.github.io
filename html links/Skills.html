@@ -2,53 +2,121 @@
 <html lang="en">
 
 <head>
-    <title>Skills Page</title>
-    <link rel="stylesheet" type="text/css" href="../css/styleNavBar.css">
-    <link rel="stylesheet" type="text/css" href="../css/styleAnimation.css">
-    <link rel="stylesheet" type="text/css" href="../css/fade overlay.css">
-   
+    <title>About Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/skillsCSS/skillsNavBar.css">
+    <link rel="stylesheet" type="text/css" href="../css/skillsCSS/testingskills.css">
+    <link rel="stylesheet" type="text/css" href="../css/skillsCSS/responsivecss.css">
+
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 
-<body>
+<body class="skillsBackground">
 
-        <div class="side-bar">
+    <div class="nav" id="navbar">
 
-            <div class="social-links hvrbox">
-                <a href="../index.html"> <img src="../img/home.png" alt="Home" class="hvrbox-layer_bottom"> </a>
-                <div class="hvrbox-layer_top hvrbox-layer_scale">
-                    <div class="hvrbox-text">Home</div>
+        <!-- Centered Nav-->
+        <ul>
+            <li>
+                <a href="../index.html"><img src="../img/home.png" alt="Home" class="image">
+                    <div class="middle">
+                        <div class="text">Home</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../html links/About.html"><img src="../img/about me.png" alt="About" class="image">
+                    <div class="middle">
+                        <div class="text">About</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="active" href="../html links/Skills.html"><img src="../img/skills.png" alt="Skills"
+                        class="image">
+                    <div class="middle">
+                        <div class="text">Skills</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../html links/Contact.html"><img src="../img/contact me.png" alt="Contact" class="image">
+                    <div class="middle">
+                        <div class="text">Contact</div>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- Skills cards-->
+    <div class="developer_skills" unique-script-id="w-w-dm-id">
+        <div class="responsive-container-block bg">
+            <p class="text-blk title" id="w-c-s-fc_p-1-dm-id">
+                My Skills
+            </p>
+            <p class="text-blk heading">
+                Currently an Android Developer with experience in the telecommunications industry. With a background in
+                Android development as well as project management and engineering, I contain the experience and skills
+                that shape the critical thinking and needs of what it takes to be a developer. I have a strong
+                comprehension of full mobile and software development life cycles, UI, and Agile procedures. In
+                addition, I have strong communication skills and I’m committed to advancing my range of skillset whether
+                is ceaselessly implementing, developing, and embracing new technologies to maximize development
+                efficiency and produce innovative applications.
+            </p>
+            <div class="responsive-container-block content">
+                <div class="responsive-container-block card">
+                    <div class="responsive-container-block languagesImg">
+                    </div>
+                    <p class="text-blk desc">
+                        Top Languages
+                    </p>
+                    <p class="text-blk info">
+                        • Kotlin • Java • Swift <br>
+                        • HTML • Javascript • CSS <br>
+                        • JSON • SQL • C# <br>
+                        • C++ • Python • Visual Basic
+                    </p>
                 </div>
-                <a href="../html links/About.html"> <img src="../img/about me.png" alt="About" class="hvrbox-layer_bottom"> </a>
-                <div class="hvrbox-layer_top hvrbox-layer_scale">
-                    <div class="hvrbox-text">About</div>
+                <div class="responsive-container-block card">
+                    <div class="responsive-container-block softwareImg">
+                    </div>
+                    <p class="text-blk desc">
+                        Software
+                    </p>
+                    <p class="text-blk info">
+                        • Android Studio • Bitbucket • Jira <br>
+                        • Xcode • Flutter • Amazon Web Services <br>
+                        • Postman
+                    </p>
                 </div>
-                <a href="../html links/Skills.html"> <img src="../img/skills.png" alt="Skills" class="hvrbox-layer_bottom"> </a>
-                <div class="hvrbox-layer_top hvrbox-layer_scale">
-                    <div class="hvrbox-text">Skills</div>
-                </div>
-                <a href="../html links/Contact.html"> <img src="../img/contact me.png" alt="Contact" class="hvrbox-layer_bottom"> </a>
-                <div class="hvrbox-layer_top hvrbox-layer_scale">
-                    <div class="hvrbox-text">Contact</div>
+                <div class="responsive-container-block card">
+                    <div class="responsive-container-block otherFunctionalExpertiseImg">
+                    </div>
+                    <p class="text-blk desc">
+                        Other functional expertise
+                    </p>
+                    <p class="text-blk info">
+                        • Android Mobile Application Development <br>
+                        • Mobile app architecture
+                    </p>
                 </div>
             </div>
-
-           
-            
-
         </div>
-        
-        <div class="main">
-            <h2>Skills Example</h2>
-            <p>This sidenav is always shown.</p>
-       
     </div>
+
+
+    <script src="javascript/hideMenuOnScroll.js">
+    </script>
 
 </body>
 
