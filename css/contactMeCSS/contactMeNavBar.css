@@ -7,7 +7,7 @@ body {
 .contactMeBackground {
     width: 100;
     height: 100vh;
-    /* background-image: url('../../img/istockphoto-1198082420-170667a.jpeg'); */
+    background-image: url('../../img/contactMeBackgroundImg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -55,18 +55,18 @@ p.centerText {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #4b2600;
+    background-color: #7a4632;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
 
 .button:hover {
-    background-color: #4b2600
+    background-color: #7a4632
 }
 
 .button:active {
-    background-color: #4b2600;
+    background-color: #7a4632;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -81,7 +81,7 @@ p.centerText {
 
 .nav a {
     text-decoration: none;
-    color: #4b2600;
+    color: #7a4632;
     width: 100px;
     position: relative;
     display: block;
@@ -93,7 +93,7 @@ p.centerText {
 
 .nav ul {
     list-style: none;
-    background-color: #4b2600;
+    background-color: #7a4632;
     text-align: center;
     padding: 0;
     margin: 0;
