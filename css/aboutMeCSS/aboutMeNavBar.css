@@ -43,7 +43,7 @@ p.centerText {
 .button {
     /* moving it to center */
     margin: 0;
-    position: relative;
+    position: absolute;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -68,7 +68,7 @@ p.centerText {
 .button:active {
     background-color: #00065d;
     box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    /* transform: translateY(4px); */
 }
 
 #navbar {
