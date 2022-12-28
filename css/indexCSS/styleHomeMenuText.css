@@ -1,3 +1,10 @@
+.contentCenter {
+    /* Centering homepage */
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
 h1.headerTitle {
     position: relative;
     /* left: 30%; */
