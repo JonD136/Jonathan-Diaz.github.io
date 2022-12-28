@@ -1484,14 +1484,14 @@ footer .credits a {
 
 .button {
   /* moving it to center */
-  margin: 0;
+  margin-top: 50px;
   position: absolute;
   left: 75%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   display: inline-block;
   padding: 15px 25px;
-  font-size: 24px;
+  font-size: 34px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
