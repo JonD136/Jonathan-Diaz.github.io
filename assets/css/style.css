@@ -1539,11 +1539,9 @@ footer .credits a {
 
 .aboutMeButton {
     /* moving it to center */
-    /* margin-top: 100px; */
-    /* position: relative; */
-    /* left: 200px; */
-    /* -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
+    margin-top: 5%;
+    position: relative;
+    left: 25%;
     display: inline-block;
     padding: 15px 25px;
     font-size: 20px;
