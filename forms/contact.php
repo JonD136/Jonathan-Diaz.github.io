@@ -25,12 +25,12 @@
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
-  $contact->smtp = array(
-    'host' => 'jonathanjdiaz.com',
-    'username' => 'jdiaz1697@gmail.com',
-    'password' => '',
-    'port' => '587'
-  );
+  // $contact->smtp = array(
+  //   'host' => 'jonathanjdiaz.com',
+  //   'username' => 'jdiaz1697@gmail.com',
+  //   'password' => '',
+  //   'port' => '587'
+  // );
   
 
   $contact->add_message( $_POST['name'], 'From');
