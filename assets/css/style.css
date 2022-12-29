@@ -454,7 +454,7 @@ a:hover {
 }
 
 .button:hover {
-    background-color: #0062d3;
+    background-color: #005d32;
     color: #fff;
     transition: all 500ms ease;
 }
@@ -1270,7 +1270,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit]:hover {
-    background: #3393ff;
+    background: #005d32;
 }
 
 @-webkit-keyframes animate-loading {
