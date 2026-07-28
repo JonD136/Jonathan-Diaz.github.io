@@ -185,6 +185,7 @@ a:hover {
 
 .title-box-2 {
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .title-left {
@@ -199,6 +200,8 @@ a:hover {
     background-color: #005d32;
     width: 100px;
     bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -417,6 +420,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -426,6 +430,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -654,6 +659,7 @@ a:hover {
     .navbar .dropdown .dropdown ul {
         left: -90%;
     }
+
     .navbar .dropdown .dropdown:hover>ul {
         left: -100%;
     }
@@ -677,6 +683,7 @@ a:hover {
     .mobile-nav-toggle {
         display: block;
     }
+
     .navbar ul {
         display: none;
     }
@@ -1277,6 +1284,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -1286,6 +1294,7 @@ a:hover {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -1368,6 +1377,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+
     .post-box,
     .form-comments,
     .box-comments,
@@ -1539,16 +1549,12 @@ footer .credits a {
 
 .aboutMeButton {
     /* moving it to center */
-    margin-top: 5%;
-    position: relative;
-    left: 25%;
+    margin-top: 100px;
     display: inline-block;
     padding: 15px 25px;
     font-size: 20px;
     cursor: pointer;
     text-align: center;
-    text-decoration: none;
-    outline: none;
     color: #fff;
     background-color: #2d0796;
     border: none;
